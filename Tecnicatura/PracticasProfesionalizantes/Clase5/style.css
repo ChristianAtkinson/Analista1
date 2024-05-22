@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    border: 1px solid;
+}
+nav {
+    text-align: center;
+    border: 1px solid;
+}
+main {
+    display: flex;
+
+}
+section {
+    width: 80%;
+    border: 1px solid;
+    display: block;
+}
+article {
+    border: 1px solid;
+}
+aside {
+    border: 1px solid;
+    width: 20%;
+    text-align: center;
+}
+footer {
+    border: 1px solid;
+    text-align: center;
+    
+}
