@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f8ff;
+    font-family: 'Pacifico', cursive;
+    margin: 0;
+}
+
+.calculator {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    width: 300px;
+}
+
+.display {
+    background-color: #e0f7fa;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 2em;
+    text-align: right;
+    margin-bottom: 10px;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.btn {
+    background-color: #80deea;
+    border: none;
+    border-radius: 50%;
+    color: white;
+    font-size: 1.5em;
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #00bcd4;
+}
+
+.equal {
+    grid-column: span 2;
+    background-color: #ff4081;
+}
+
+.equal:hover {
+    background-color: #f50057;
+}
+
+.zero {
+    grid-column: span 2;
+}
